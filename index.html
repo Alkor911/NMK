@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>My first HTML file</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body style=" border:solid white 15px; box-shadow: 0 0 20px grey">
+    <h1 style="color:rgb(80, 43, 117)" title="I'm here">Hello World!</h1>
+
+<div><!--Checkboxes-->
+    <form action="" method="GET">
+    Your name: <input type="text" name="name">
+    Password:  <input type="password" name="password">
+    
+            Ваш check1: <input type="checkbox" name="check1">
+            Ваш check2: <input type="checkbox" name="check2">
+            Ваш check3: <input type="checkbox" name="check3">
+            Ваш check4: <input type="checkbox" name="check4">
+            <br><br><br>
+            Ваш check1: <input type="radio" name="rd1">
+            Ваш check2: <input type="radio" name="rd1">
+            Ваш check3: <input type="radio" name="rd1">
+            Ваш check4: <input type="radio" name="rd1">
+            <br><br><br>
+            Курси:<br>
+            <select>
+                <option>html</option>
+                <option>css</option>
+                <option>javascript</option>
+                <option>php</option>
+            </select>   
+            <br><br><br>
+            Повідомлення:<br>
+                <textarea cols="30" rows="10"></textarea><br>
+                <input type="reset">
+                <input type="image" src="img/sub.png" name="go" value="Підписатись" title="Підписатись"><br><br>
+                <input type="file"><br>
+    </form>
+</div> <br><hr>
+
+    <!--<iframe height="300px" width="100%" src="https://www.w3schools.com/"></iframe>-->
+
+    <iframe width='600' height='400' src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
+
+    <p id="demo"></p>
+    <script>
+        document.getElementById("demo").innerHTML = "Hello JavaScript!";
+    </script>
+
+
+<div><!--text types & styles-->
+    <h3 style="font-size:20px;">Heading 4<a name="mitka"><sup>1</sup></a></h3>
+    <br>
+    <p style="border:5px solid blue;margin:40px;">This is paragraph</p>
+    <br>
+    <a href="https://www.w3schools.com" target="blank">Tap here to enter w3school</a>
+    <br>
+    <p style="font-size:120%;text-align:center;font-family:verdana;">This is paragraph</p>
+    <p>This is <del>message</del> <ins>paragraph</ins>.</p><b>This text is bold.</b><strong>This <small>text is</small> strong.</strong><em>This text is emphasized.</em> <i>This <mark>text is</mark> italic.</i>
+    <br>
+    <p>Picture <cite>People on binar road</cite> is situated below.</p>
+    <img src="img/002.jpg" alt="People on binar road" width="300" height="200">
+    <br>
+    <p>Here we have a few numbers: <q>One, Two, Three, Four, Five.</q></p>
+    <p>Here is a quote from w3schoolls website:</p>
+</div>
+    <blockquote site="http://www.w3schools.com/html/html_quotation_elements.asp">HTML Quotation and Citation Elements</blockquote>
+    <br>
+    <p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
+    <br>
+    <p>If your browser supports bi-directional override (bdo), the next line will be written from right to left (rtl):</p>
+    <bdo dir="rtl">I'm alive</bdo>
+    <br><br><hr>
+    <p>Многочлен ступеня <em>n</em></p>
+    <em>f(x)=a<sub>0</sub>+a<sub>1</sub>x+...+a<sub>n-1</sub>x<sup>n-1</sup>+a<sub>n</sub>x<sup>n</sup></em>
+    <br/>
+    <img src="img/001.jpg" alt="IT picture" style="width:50%"><br>
+    <p>
+    This paragraph contains         a lot of spaces
+    in the source         code, but the        browser 
+    ignores it.</p><a href="#mitka">перехід на мітку 1</a>
+    <hr>
+<div><!--table-->
+    <hr>
+    <table border="1" width="50%" cellpadding="0" cellspacing="0">
+        <tr>
+            <td width="220">1</td>
+            <td>1.1</td>
+            <td>1.2</td>
+            <td>1.3</td>
+            <td>1.4</td>
+        </tr>
+        <tr>
+            <td rowspan="2" height="100">2</td>
+            <td width="220">2.1</td>
+            <td align="center">2.2</td>
+            <td valign="top">2.3</td>
+            <td>2.4</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>3.1</td>
+            <td>3.2</td>
+            <td>3.3</td>
+            <td>3.4</td>
+        </tr>
+    </table>
+</div><br><hr>
+
+</div><hr><br>
+<div><!--Picture with areas. Як визначити координати?-->
+    <img src="img/workplace.jpg" alt="Workplace" usemap="#workmap" title="workplace">
+
+    <map name="workmap">
+        <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+        <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+        <area shape="circle" coords="337,300,44" alt="Coffee" href="coffee.htm">
+    </map>
+
+</div><hr><br>
+<div><!--Description list-->
+    <dl>
+        <dt>Plan:</dt>
+        <dd>- action progression</dd>
+    </dl>
+</div>
+    <hr><br>
+    <button type="button"
+    onclick="document.getElementById('demoqw').innerHTML = Date()">
+    Click me to display Date and Time.</button>
+    
+    <p id="demoqw"></p>
+    <hr> <br>
+
+    <h1>Java script</h1>
+
+<div>
+
+    <p id="demos">JavaScript can change the style of an HTML element.</p>
+
+    <script>
+    function myFunction() {
+        document.getElementById("demos").style.fontSize = "25px"; 
+        document.getElementById("demos").style.color = "red";
+        document.getElementById("demos").style.backgroundColor = "yellow";        
+    }
+    </script>
+    
+    <button type="button" onclick="myFunction()">Click Me!</button>
+    
+</div>
+<div>
+    <script>
+        function light(sw) {
+            var pic;
+            if (sw == 0) {
+                pic = "img/pic_bulboff.gif"
+            } else {
+                pic = "img/pic_bulbon.gif"
+            }
+            document.getElementById('myImage').src = pic;
+        }
+        </script>
+        
+        <img id="myImage" src="img/pic_bulboff.gif" width="100" height="180">
+        
+        <p>
+        <button type="button" onclick="light(1)">Light On</button>
+        <button type="button" onclick="light(0)">Light Off</button>
+        </p>   
+</div>    
+    
+
+<br><hr>
+<address><pre>
+Created by Nazarii Kolachynskyi. 
+Contact with me via mobile phone 
++38 097 911 22 08</pre>
+</address>
+</body>
+</html>
